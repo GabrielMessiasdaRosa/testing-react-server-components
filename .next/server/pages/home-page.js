@@ -193,20 +193,15 @@ const baseButtonActiveVariantClassMap = {
 
 
 const HomePage = ({})=>{
-    const { 0: count , 1: setCount  } = (0,external_react_.useState)(0);
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Column, {
         children: [
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
-                children: [
-                    "You clicked ",
-                    count,
-                    " times"
-                ]
+            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                children: "You clicked zero times"
             }),
             /*#__PURE__*/ jsx_runtime_.jsx(external_react_.Suspense, {
                 fallback: "Loading...",
                 children: /*#__PURE__*/ jsx_runtime_.jsx(button_client, {
-                    onClick: ()=>setCount(count + 1),
+                    onClick: ()=>console.log("CLICK!"),
                     children: "Click me"
                 })
             })

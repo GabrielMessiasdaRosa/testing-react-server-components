@@ -3,8 +3,7 @@
   "/_error": "pages/_error.js",
   "/api/hello": "pages/api/hello.js",
   "/home-page": "pages/home-page.js",
-  "/": "pages/index.html",
+  "/": "pages/index.js",
   "/_document": "pages/_document.js",
-  "/home-page.__sc_client__": "pages/home-page.__sc_client__.js",
-  "/404": "pages/404.html"
+  "/home-page.__sc_client__": "pages/home-page.__sc_client__.js"
 }
