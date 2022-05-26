@@ -1,4 +1,4 @@
-import SpinnerSvg from "assets/svg/spinner.svg";
+import SpinnerSvg from "../assets/spinner.svg";
 import { Theme } from "../types/theme-type";
 
 export interface SpinnerProps {
